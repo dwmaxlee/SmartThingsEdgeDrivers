@@ -1,0 +1,10 @@
+name: basic-alarm-different
+components:
+- id: main
+  capabilities:
+  - id: alarm
+    version: 1
+  - id: refresh
+    version: 1
+  categories:
+  - name: Siren

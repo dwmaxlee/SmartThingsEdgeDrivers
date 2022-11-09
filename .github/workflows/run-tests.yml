@@ -1,9 +1,9 @@
 name: Run driver tests
 on:
-  pull_request:
-    types: [opened, synchronize]
-    paths:
-      - 'drivers/**'
+  # pull_request:
+  #   types: [opened, synchronize]
+  #   paths:
+  #     - 'drivers/**'
 env:
   LUA_PATH: /home/runner/work/lua_libs/?.lua;./?.lua;/home/runner/work/lua_libs/?/init.lua;./?/init.lua
 jobs:

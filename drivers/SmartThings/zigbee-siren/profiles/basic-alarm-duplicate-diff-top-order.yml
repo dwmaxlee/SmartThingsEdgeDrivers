@@ -1,0 +1,12 @@
+name: basic-alarm-duplicate-diff-top-order
+components:
+- id: main
+  capabilities:
+  - id: firmwareUpdate
+    version: 1
+  - id: alarm
+    version: 1
+  - id: refresh
+    version: 1
+  categories:
+  - name: Siren
